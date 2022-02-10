@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "me.bluesmoke.mangodfps.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "GameRendererMixin",
+    "MinecraftClientMixin",
+    "ThreadExecutorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
